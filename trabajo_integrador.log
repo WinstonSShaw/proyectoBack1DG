@@ -1,0 +1,66 @@
+[2022-07-11 00:48:19] [ INFO ] [OdontologoController:43] Se guardo el odontologo con id:null, nombre: wins wins, matricula:123
+[2022-07-11 00:50:37] [ INFO ] [OdontologoController:32] Se encontro el odontologo con id: 1
+[2022-07-11 00:50:40] [ INFO ] [OdontologoController:51] Se modifico el odontologo con id:1, datos guardados: nombre: wins wins, matricula:1235
+[2022-07-11 01:04:39] [ INFO ] [OdontologoController:43] Se guardo el odontologo con id:null, nombre: Winston Shaw, matricula:123
+[2022-07-11 01:05:14] [ INFO ] [PacienteController:44] Se guardo el paciente con id:null, nombre: Martin Sanchez, dni:123456, domicilio:null
+[2022-07-11 01:05:25] [ INFO ] [OdontologoController:32] Se encontro el odontologo con id: 1
+[2022-07-11 01:05:31] [ INFO ] [OdontologoController:51] Se modifico el odontologo con id:1, datos guardados: nombre: Winston Shaw, matricula:123321
+[2022-07-11 01:05:42] [ INFO ] [PacienteController:33] Se encontro el paciente con id: 1
+[2022-07-11 01:05:50] [ INFO ] [PacienteController:53] Se modifico el paciente con id:1, datos guardados: nombre: Martin Sanchez Freytes, dni:123456, domicilio:null
+[2022-07-11 01:06:06] [ INFO ] [PacienteController:68] Se elimino al paciente con id:1
+[2022-07-11 01:06:09] [ INFO ] [OdontologoController:65] Se elimino al odontologo con id:1
+[2022-07-11 01:06:23] [ INFO ] [OdontologoController:43] Se guardo el odontologo con id:null, nombre: Winston Shaw, matricula:123
+[2022-07-11 01:06:26] [ INFO ] [OdontologoController:32] Se encontro el odontologo con id: 2
+[2022-07-11 01:06:29] [ INFO ] [OdontologoController:51] Se modifico el odontologo con id:2, datos guardados: nombre: Winston Spencer Shaw, matricula:123
+[2022-07-11 01:06:41] [ INFO ] [PacienteController:44] Se guardo el paciente con id:null, nombre: Aguston Cosma, dni:123654, domicilio:null
+[2022-07-11 01:06:45] [ INFO ] [PacienteController:33] Se encontro el paciente con id: 2
+[2022-07-11 01:06:55] [ INFO ] [PacienteController:53] Se modifico el paciente con id:2, datos guardados: nombre: Agustin Cosma, dni:987645, domicilio:null
+[2022-07-11 01:07:14] [ INFO ] [OdontologoController:32] Se encontro el odontologo con id: 2
+[2022-07-11 01:07:14] [ INFO ] [PacienteController:33] Se encontro el paciente con id: 2
+[2022-07-11 16:15:02] [ INFO ] [PacienteController:44] Se guardo el paciente con id:null, nombre: Winston Shaw, dni:123654, domicilio:com.example.winstonShaw.entities.Domicilio@53c82014
+[2022-07-11 16:27:08] [ INFO ] [PacienteController:44] Se guardo el paciente con id:null, nombre: Martin Sanchez, dni:321456, domicilio:com.example.winstonShaw.entities.Domicilio@3f6e69aa
+[2022-07-11 16:33:47] [ INFO ] [PacienteController:44] Se guardo el paciente con id:null, nombre: Leo Luchino, dni:654123, domicilio: id:null, calle: Rioj, numero:654, localidad: Cba, provincia: Cba
+[2022-07-11 16:39:09] [ INFO ] [PacienteController:44] Se guardo el paciente con id:null, nombre: Leo Lchino, dni:65413, domicilio: id:null, calle: Julio, numero:654, localidad: Cba, provincia: Cba
+[2022-07-11 16:39:39] [ INFO ] [PacienteController:69] Se elimino al paciente con id:1
+[2022-07-11 16:43:11] [ INFO ] [PacienteController:44] Se guardo el paciente con id:null, nombre: Wins Shaw, dni:123, domicilio: id:null, calle: Juan, numero:654, localidad: Cba, provincia: Cba
+[2022-07-11 16:46:19] [ INFO ] [PacienteController:44] Se guardo el paciente con id:null, nombre: Leo Luchi, dni:654, domicilio: id:null, calle: Louis, numero:654, localidad: Cba, provincia: Cba
+[2022-07-11 16:46:26] [ INFO ] [PacienteController:70] Se elimino al paciente con id:1
+[2022-07-11 16:55:09] [ INFO ] [PacienteController:44] Se guardo el paciente con id:null, nombre: Winst Shaw, dni:213654, domicilio: id:null, calle: Loui, numero:987, localidad: Cba, provincia: Cba
+[2022-07-11 16:55:14] [ INFO ] [PacienteController:33] Se encontro el paciente con id: 1
+[2022-07-11 16:55:44] [ INFO ] [PacienteController:55] Se modifico el paciente con id:1, datos guardados: nombre: Gustavo Gonzalez, dni:456231555, domicilio:com.example.winstonShaw.entities.Domicilio@26fed505
+[2022-07-11 16:56:25] [ INFO ] [PacienteController:70] Se elimino al paciente con id:1
+[2022-07-11 19:47:06] [ INFO ] [OdontologoController:43] Se guardo el odontologo con id:null, nombre: Wins Shaw, matricula:465
+[2022-07-11 19:47:29] [ INFO ] [PacienteController:44] Se guardo el paciente con id:null, nombre: Leo Luchino, dni:321, domicilio: id:null, calle: Victorni, numero:357, localidad: Cba, provincia: Cba
+[2022-07-11 19:47:42] [ INFO ] [TurnoController:58] Se guardo el turno con id:null, pacienteId:1, odontologoId:1
+[2022-07-11 19:51:53] [ INFO ] [OdontologoController:43] Se guardo el odontologo con id:null, nombre: Wins Shaw, matricula:654
+[2022-07-11 19:52:19] [ INFO ] [PacienteController:44] Se guardo el paciente con id:null, nombre: Gus Gonzalez, dni:987, domicilio: id:null, calle: ascuen, numero:3544, localidad: Cba, provincia: Cba
+[2022-07-11 19:52:29] [ INFO ] [TurnoController:58] Se guardo el turno con id:null, pacienteId:1, odontologoId:1
+[2022-07-11 19:55:15] [ INFO ] [TurnoController:107] Se borro el turno con id:1
+[2022-07-12 19:04:06] [ INFO ] [OdontologoController:43] Se guardo el odontologo con id:null, nombre: Agustin Cosma, matricula:123
+[2022-07-12 19:04:11] [ INFO ] [OdontologoController:43] Se guardo el odontologo con id:null, nombre: Martin Sanchez, matricula:987
+[2022-07-12 19:04:45] [ INFO ] [PacienteController:44] Se guardo el paciente con id:null, nombre: Carlos Cheli, dni:987456, domicilio: id:null, calle: adrian, numero:852, localidad: Cba, provincia: Cba
+[2022-07-12 19:05:11] [ INFO ] [PacienteController:44] Se guardo el paciente con id:null, nombre: Gonzalo Perez, dni:654321, domicilio: id:null, calle: perez, numero:656, localidad: Mza, provincia: Mza
+[2022-07-12 19:05:26] [ INFO ] [TurnoController:58] Se guardo el turno con id:null, pacienteId:1, odontologoId:2
+[2022-07-12 19:05:36] [ INFO ] [TurnoController:58] Se guardo el turno con id:null, pacienteId:2, odontologoId:1
+[2022-07-12 19:11:16] [ INFO ] [TurnoController:107] Se borro el turno con id:1
+[2022-07-12 19:11:21] [ INFO ] [TurnoController:107] Se borro el turno con id:2
+[2022-07-12 19:11:26] [ INFO ] [PacienteController:33] Se encontro el paciente con id: 1
+[2022-07-12 19:11:30] [ INFO ] [PacienteController:55] Se modifico el paciente con id:1, datos guardados: nombre: Carlos Cheliqui, dni:987456, domicilio: id:1, calle: adrian, numero:852, localidad: Cba, provincia: Cba
+[2022-07-12 19:11:34] [ INFO ] [PacienteController:71] Se elimino al paciente con id:1
+[2022-07-12 19:11:36] [ INFO ] [PacienteController:71] Se elimino al paciente con id:2
+[2022-07-12 19:11:39] [ INFO ] [OdontologoController:32] Se encontro el odontologo con id: 1
+[2022-07-12 19:11:42] [ INFO ] [OdontologoController:51] Se modifico el odontologo con id:1, datos guardados: nombre: Agustin Cosmin, matricula:123
+[2022-07-12 19:11:44] [ INFO ] [OdontologoController:65] Se elimino al odontologo con id:1
+[2022-07-12 19:11:44] [ INFO ] [OdontologoController:65] Se elimino al odontologo con id:2
+[2022-07-12 19:14:27] [ INFO ] [OdontologoController:43] Se guardo el odontologo con id:null, nombre: Agustoin Cosma, matricula:6543
+[2022-07-12 19:14:53] [ INFO ] [PacienteController:44] Se guardo el paciente con id:null, nombre: Carlos Cheli, dni:321654, domicilio: id:null, calle: Chori, numero:654, localidad: Cba, provincia: Cba
+[2022-07-12 19:15:26] [ INFO ] [TurnoController:58] Se guardo el turno con id:null, pacienteId:1, odontologoId:1
+[2022-07-12 19:25:35] [ INFO ] [OdontologoController:43] Se guardo el odontologo con id:null, nombre: Hola Hola, matricula:123
+[2022-07-12 19:26:04] [ INFO ] [OdontologoController:43] Se guardo el odontologo con id:null, nombre: chau Chau, matricula:654
+[2022-07-12 19:26:09] [ INFO ] [OdontologoController:65] Se elimino al odontologo con id:1
+[2022-07-12 19:26:09] [ INFO ] [OdontologoController:65] Se elimino al odontologo con id:2
+[2022-07-12 19:28:02] [ ERROR] [TurnoController:67] No se guardo el turno pq no se encontro el paciente con id:1
+[2022-07-12 19:28:22] [ INFO ] [OdontologoController:43] Se guardo el odontologo con id:null, nombre: Agus Cosma, matricula:654
+[2022-07-12 19:28:43] [ INFO ] [PacienteController:44] Se guardo el paciente con id:null, nombre: Carlos Cheli, dni:654, domicilio: id:null, calle: Rosales, numero:897, localidad: Cba, provincia: Cba
+[2022-07-12 19:28:59] [ INFO ] [TurnoController:58] Se guardo el turno con id:null, pacienteId:1, odontologoId:1
+[2022-07-12 19:50:08] [ INFO ] [OdontologoController:43] Se guardo el odontologo con id:null, nombre: Agust Cosma, matricula:123

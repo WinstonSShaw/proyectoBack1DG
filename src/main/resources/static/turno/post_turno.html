@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Alta de turnos</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../js/turno/post_turno.js"></script>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="../index.html">Inicio</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownOdontologo" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Odontólogos
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="../odontologo/get_all_odontologo.html">Listar Odontólogos</a>
+                    <a class="dropdown-item" href="../odontologo/post_odontologo.html">Agregar Odontólogo</a>
+                </div>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownPaciente" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Pacientes
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="../paciente/get_all_paciente.html">Listar Pacientes</a>
+                    <a class="dropdown-item" href="../paciente/post_paciente.html">Agregar Paciente</a>
+                </div>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownTurno" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Turnos
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="./get_all_turno.html">Listar Turnos</a>
+                    <a class="dropdown-item" href="./post_turno.html">Agregar Turno</a>
+                </div>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<div class="container">
+    <div class="row">
+        <div class="col-sm-7">
+            <h2>Agregar Turno</h2>
+            <form id="add_new_turno">
+                <div class="form-group">
+                    <label class="control-label" for="pacienteId">Paciente id:</label>
+                    <input type="text" class="form-control" id="pacienteId"
+                           placeholder="Ingrese el id de paciente" name="pacienteId" required>
+                </div>
+                <div class="form-group">
+                    <label class="control-label" for="odontologoId">Odontologo id:</label>
+                    <input type="text" class="form-control" id="odontologoId"
+                           placeholder="Ingrese el id del odontologo" name="odontologoId" required>
+                </div>
+                <div class="form-group">
+                    <label class="control-label" for="fecha">Fecha:</label>
+                    <input type="date" class="form-control" id="fecha"
+                           placeholder="AAAA-MM-DD" name="fecha" required>
+                </div>
+                <button type="submit" class="btn btn-success" id="btn-add-new-turno">Dar de alta</button>
+                <div id="response"></div>
+            </form>
+        </div>
+    </div>
+</div>
+</body>
+</html>
